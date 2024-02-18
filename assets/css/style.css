@@ -12,15 +12,21 @@ nav ul li{display: inline-block; padding: 10px; }
 nav li a{font-size: 14px; color: #0534ee; text-decoration: none;}
 
 h2{text-align: center; text-transform: capitalize;}
+
 .prodList{
-    width: 30%; display: inline-block; padding: 5px;
+    display: flex; align-items: flex-start; justify-content: space-between;
+}
+.prodList div{
+    align-items: self-start;
+    width: 32%;     
 }
 .prodList img{
     border-top-left-radius: 20px;;
     border-bottom-right-radius: 20px;
     border: 2px solid #d9d9d9;
-    width: 100%;
-    height: 250px; /* always mention only one - width or height to maintain the aspect ratio */
+    height: 200px;  /*always mention only one - width or height to maintain the aspect ratio*/
+    display: flex;
+    margin: 0 auto;
 }
 .prodList p{font-size: 14px;}
 .prodList button{background-color: #0534ee; width: 100%; height: 40px; color: #fff; border: 0;}
