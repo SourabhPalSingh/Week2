@@ -6,8 +6,10 @@ body{
     max-width: 1024px;
     margin: 0 auto;
 }
-nav{background-color: beige;}
-nav ul{margin: 0;}
+nav{background-color: beige; height: 40px;}
+nav ul{margin: 0; display: block;}
+nav ul.pull-left{float: left;}
+nav ul.pull-right{float: right;}
 nav ul li{display: inline-block; padding: 10px; }
 nav li a{font-size: 14px; color: #0534ee; text-decoration: none;}
 
@@ -32,3 +34,20 @@ h2{text-align: center; text-transform: capitalize;}
 .prodList button{background-color: #0534ee; width: 100%; height: 40px; color: #fff; border: 0;}
 
 footer{background-color: #d9d9d9; text-align: center; margin: 20px 0; padding: 10px;}
+
+
+/* Registration form */
+fieldset{
+    border-radius: 10px;
+    border: 1px solid #cecece;
+    padding: 25px;
+    width: 50%;
+    margin: 0 auto;
+}
+fieldset div{padding: 10px;}
+fieldset label{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+    padding-right: 10px;
+}
