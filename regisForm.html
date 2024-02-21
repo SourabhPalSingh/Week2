@@ -49,11 +49,23 @@
                 <span class="error" id="errorCnfmPass"></span>
             </div>
             <div>
-                <input type="button" value="Validate" onclick="validateForm()">
+                <input id="regisFormBtn" type="button" value="Validate" onclick="validateForm()">
             </div>
             
         </fieldset>
     </form>
+
+    <!-- eventListener Practice only -->
+    <!-- <script>
+        const submitBtn = document.getElementById("regisFormBtn");
+
+        submitBtn.addEventListener("click", function(e){
+            e.preventDefault();
+
+            console.log("button is clicked")
+        })
+    </script> -->
+
 </body>
 
 </html>
